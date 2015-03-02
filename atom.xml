@@ -5,9 +5,76 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 18 Oct 2014 18:07:21 -0300</pubDate>
-    <lastBuildDate>Sat, 18 Oct 2014 18:07:21 -0300</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Sun, 01 Mar 2015 22:22:41 -0300</pubDate>
+    <lastBuildDate>Sun, 01 Mar 2015 22:22:41 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Links Selecionados - 01/03/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;http://www.cio.co.uk/insight/data-management/jim-starkeys-nosql-low-down-it-wont-solve-big-data-3598479/&quot; target=&quot;_blank&quot;&gt;Entrevista de Jim Starkey sobre NoSQL&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Jim Starkey foi um dos responsáveis pela criação do InterBase que
+originou o &lt;a href=&quot;http://www.firebirdsql.org/&quot; target=&quot;_blank&quot;&gt;Firebird&lt;/a&gt;.
+Mais tarde fundou a Netfrastructure (adquirida
+pela MySQL) e a &lt;a href=&quot;http://www.nuodb.com/&quot; target=&quot;_blank&quot;&gt;NuoDB&lt;/a&gt;. Diversas inovações em bancos de dados são
+resultados do trabalho de Jim Starkey, entre elas, o tipo de dado BLOB,
+que pode ser visto como uma primeira tentativa de se lidar com dados não
+estruturados.&lt;/p&gt;
+
+&lt;p&gt;Em entrevista, Starkey expressa sua cautela quanto a bancos de dados
+NoSQL pois acredita que existem soluções melhores, em que não é
+necessário abrir mão de transações ou consistência.&lt;/p&gt;
+
+&lt;p&gt;Por fim, Starkey diz que em bancos NoSQL a visão dos dados se encontra
+na aplicação. Isso faz com que duas aplicações não tenham a mesma visão,
+e consequentemente, gerem inconsistências nos dados.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://www.technologyreview.com/view/535446/googles-ai-masters-space-invaders-but-it-still-stinks-at-pac-man/&quot; taget=&quot;_blank&quot;&gt;DeepMind publica novos resultados&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A DeepMind é uma empresa focada em Inteligência Artificial, 
+&lt;a href=&quot;http://techcrunch.com/2014/01/26/google-deepmind/&quot; target=&quot;_blank&quot;&gt;adquirida pelo Google em 2014&lt;/a&gt;. 
+Recentemente a empresa publicou na Nature os
+novos resultados de seu algoritmo capaz de 
+&lt;a href=&quot;http://www.bloomberg.com/news/articles/2015-02-25/google-s-computers-learn-to-play-video-games-by-themselves&quot; target=&quot;_blank&quot;&gt;
+aprender a jogar jogos de Atari&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esse tipo de sistema será utilizado em mundos virtuais cada vez mais
+complexos, diminuindo assim a distância para o mundo real. A ideia é que
+se o algoritmo for capaz de aprender a dirigir um carro em um jogo de
+corrida, o mesmo será capaz de aprender a dirigir um carro autônomo com
+alguns ajustes.&lt;/p&gt;
+
+&lt;p&gt;O sistema utiliza &lt;em&gt;deep reinforcement learning&lt;/em&gt;. O código fonte e a
+publicação podem ser encontrados 
+&lt;a href=&quot;https://sites.google.com/a/deepmind.com/dqn/&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2015/03/01/deepmind.gif&quot; alt=&quot;Breakout&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://ml.posthaven.com/machine-learning-done-wrong&quot; target=&quot;_blank&quot;&gt;Machine Learning Done Wrong&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Cheng Tao-Chu, diretor de analytics do CodeAcademy, publicou uma 
+lista de más práticas em Machine Learning. Por exemplo, é importante 
+evitar utilizar modelos de alta variância em conjuntos de dados com 
+um número de instâncias de treino muito menor que o número de features.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://jd-mathbio.blogspot.ca/2015/02/finding-cheaters-using-multiple-choice.html&quot; target=&quot;_blank&quot;&gt;Identificando cola em prova utilizando dados&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Jonathan Dushoff estava desconfiado de que alguns alunos poderiam 
+ter colado em seu exame final. Para checar se isso havia ocorrido, 
+o professor resolveu fazer um gráfico que comparasse provas de cada 
+par de alunos. Utilizando tal informação, o professor identificou 
+pares de alunos cujos resultados fugiam do padrão.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/2015/03/01/cola.png&quot; alt=&quot;Outliers são um indicativo de fraude&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/links/2015/03/01/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/links/2015/03/01/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Data Science</title>
