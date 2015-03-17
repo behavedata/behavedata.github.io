@@ -5,9 +5,84 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Mar 2015 22:22:41 -0300</pubDate>
-    <lastBuildDate>Sun, 01 Mar 2015 22:22:41 -0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Tue, 17 Mar 2015 13:42:04 -0300</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2015 13:42:04 -0300</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>Links Selecionados - 17/03/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;http://www.washingtonpost.com/blogs/wonkblog/wp/2015/03/03/a-scientific-explanation-of-what-makes-indian-food-so-delicious/&quot; target=&quot;_blank&quot;&gt;
+Desvendando a culinária Indiana&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Um grupo de cientistas identificou o que torna a comida indiana única. A
+partir de uma análise de milhares de receitas, os pesquisadores
+descobriram que existe uma tendência de se utilizar ingredientes que não
+tenham interseção de sabores.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://behindthesite.com/&quot; taget=&quot;_blank&quot;&gt;
+Behind The Site
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O BehindTheSite é um repositório de informações sobre os softwares e
+serviços utilizados em diferentes empresas e produtos.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://blog.compose.io/is-postgresql-your-next-json-database/&quot; taget=&quot;_blank&quot;&gt;
+PostgreSQL + JSON
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O PostgreSQL está cada vez mais capaz de armazenar e tratar documentos
+em formato JSON. Este artigo é um estudo sobre a possibilidade de se
+utilizar o Postgre como um substituto para o MongoDB. A resposta curta
+é: o Postgre poderia ser utilizado se não houver necessidade de
+atualizar os documentos frequentemente.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://www.mapr.com/real-world-hadoop&quot; taget=&quot;_blank&quot;&gt;
+Real-World Hadoop
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Um livro gratuito com informações sobre o ecossistema hadoop e estudos
+de caso.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://spark.apache.org/releases/spark-release-1-3-0.html&quot; taget=&quot;_blank&quot;&gt;
+Apache Spark 1.3
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Uma nova versão do Spark foi lançada. Uma das novidades desta versão é a
+API de &lt;a href=&quot;https://databricks.com/blog/2015/03/13/announcing-spark-1-3.html&quot; target=&quot;_blank&quot;&gt;DataFrame&lt;/a&gt; inspirada nos DataFrames de R. Este será um formato
+comum para comunicação e interoperabilidade. &lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://timdettmers.wordpress.com/2015/03/09/deep-learning-hardware-guide/&quot; taget=&quot;_blank&quot;&gt;
+Guia de Hardware para Deep Learning
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Para se utilizar Deep Learning de forma competitiva é necessário um
+grande poder computacional. Para auxiliar na escolha do hardware, Tim
+Dettmers preparou um guia que cobre desde a escolha da placa gráfica até
+os coolers e monitores.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://jasmcole.com/2015/03/02/two-come-along-at-once/&quot; taget=&quot;_blank&quot;&gt;
+Dois ônibus de uma vez
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Análise das rotas dos ônibus de Londres para responder a pergunta:
+sempre que há atraso dois ônibus chegam juntos?&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://www.kdnuggets.com/2015/02/history-data-science-infographic.html&quot; taget=&quot;_blank&quot;&gt;
+Data Science em infográfico
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Infográfico que apresenta o surgimento da Data Science a partir da união
+de cinco campos: Ciência da Computação, Tecnologia dos Dados,
+Visualização, Matemática e Estatística.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Mar 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/links/2015/03/17/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/links/2015/03/17/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 01/03/2015</title>
