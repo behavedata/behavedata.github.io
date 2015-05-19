@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>BehaveData :: Links Selecionados - 04/05/2015</title>
+  <title>BehaveData :: Links Selecionados - 18/05/2015</title>
 
   <meta name="author" content="" />
   <meta name="description" content="BehaveData é uma comunidade para Data Scientists." />
@@ -64,50 +64,79 @@
         <div class="col-md-8 col-md-offset-2">
             <article>
   <h1>
-    <a href="/links/2015/05/04/links-selecionados/">Links Selecionados - 04/05/2015</a>
+    <a href="/links/2015/05/18/links-selecionados/">Links Selecionados - 18/05/2015</a>
   </h1>
 
   <section class="byline">
-    04/05/2015
+    18/05/2015
   </section>
 
-  <h3><a href="https://github.com/fchollet/keras" target="_blank">
-Keras: biblioteca de Deep Learning
+  <h3><a href="http://instagram-engineering.tumblr.com/post/117889701472/emojineering-part-1-machine-learning-for-emoji" target="_blank">
+Emojineering
 </a></h3>
 
-<p>Keras é uma biblioteca minimalista e modular para prototipação de redes
-neurais. Ela utiliza a Theano para realizar computações eficientes em
-CPU e GPU e suporta <em>convolutional</em> e <em>recurrent networks</em>.</p>
+<p>Neste estudo, o Instagram analisa a adoção e o uso de emojis em seus
+posts. Utilizando o <a href="https://code.google.com/p/word2vec/" target="_blank">word2vec</a>, 
+a equipe analisou qual o contexto de cada emoji e quais palavras eles 
+normalmente representam.</p>
 
-<h3 class="title-space"><a href="http://www.john-foreman.com/blog/surviving-data-science-at-the-speed-of-hype" taget="_blank">
-Surviving Data Science "at the Speed of Hype"
+<h3 class="title-space"><a href="http://engineering.flipboard.com/2015/05/scaling-convnets/" target="_blank">
+Image Scaling using Deep Convolutional Neural Networks
 </a></h3>
 
-<p>Neste artigo, John Foreman descreve como é ser um Data Scientist em mercados e ambientes de incerteza e rápidas mudanças. Ele argumenta que modelos complexos de aprendizado de máquina demandam um ambiente estável - no mínimo, para concepção dos modelos e construção de um bom treino, por exemplo. Nesses casos, análises mais simples têm maior valor.</p>
+<p>Redes neurais tem se tornado cada vez mais utilizadas por apresentarem
+bons resultados nas mais diversas áreas. Nesse post, a equipe do
+Flipboard apresenta alguns experimentos de redimensionamento de imagens
+utilizando Convolutional Neural Networks. O post ainda apresenta uma boa
+revisão dos conceitos de redes neurais.</p>
 
-<h3 class="title-space"><a href="http://www.dear-data.com/" taget="_blank">
-Dear Data
+<h3 class="title-space"><a href="http://nerds.airbnb.com/overcoming-missing-values-in-a-rfc/" target="_blank">
+Overcoming Missing Values in a Random Forest Classifier
 </a></h3>
 
-<p>Projeto em que visualizações de dados são feitas manualmente e trocadas
-entre duas artistas. Com o objetivo de se conhecerem melhor, toda semana
-elas definem um tópico, coletam os dados e trocam cartões postais com as visualizações criadas.</p>
+<p>Um dos desafios do trabalho com dados é lidar com bases que tenham
+informações incompletas. Existem diversas formas de lidar com este
+problema que vão desde o descarte da entrada incompleta até a estimativa
+dos valores desconhecidos. Neste post a equipe do AirBNB mostra como
+utiliza árvores de decisão para lidar com bases de dados com esta
+característica.</p>
 
-<h3 class="title-space"><a href="http://www-labs.iro.umontreal.ca/~bengioy/dlbook/" taget="_blank">
-Livro sobre Deep Learning
+<h3 class="title-space"><a href="http://www.odbms.org/blog/2015/04/powering-big-data-at-pinterest-interview-with-krishna-gade/" target="_blank">
+Powering Big Data at Pinterest
 </a></h3>
 
-<p>Yoshua Bengio <em>et al</em> publicaram uma nova versão do livro sobre Deep
-Learning. Três novos capítulos foram adicionados, além de diversas
-melhorias e uma reorganização do livro em três partes.</p>
+<p>Entrevista com Krishna Grade, engenheiro do time de dados do Pinterest,
+em que ele conta como é trabalhar com um produto e uma empresa com foco
+em dados. Além dos desafios do dia-a-dia, também são abordadas as
+tecnologias utilizadas na infraestrutura do Pinterest.</p>
 
-<h3 class="title-space"><a href="http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/" taget="_blank">
-Deep Learning e processamento de linguagem natural
+<h3 class="title-space"><a href="http://blog.dato.com/parallel-ml-with-hogwild" target="_blank">
+Parallel Machine Learning with Hogwild!
 </a></h3>
 
-<p>Este post aborda aplicações de Deep Learning no processamento
-de linguagem natural. Mais específicamente, o autor fala sobre a
-representação dos atributos e a sua utilização em redes neurais. </p>
+<p>Algoritmos paralelos podem gastar um tempo significativo obtendo e
+liberando locks. Em alguns casos, uma técnica chamada Hogwild! pode ser
+utilizada para substituir o lock sem grandes prejuízos no resultado
+final. </p>
+
+<h3 class="title-space"><a href="https://research.facebook.com/researchers/1543934539189348" target="_blank">
+The bAbI project
+</a></h3>
+
+<p>O Facebook divulgou um dataset artificial com tarefas que podem ser
+utilizadas para testar o entendimento de textos e a conexão entre fatos.
+As tarefas foram construidas isolando diferentes aspectos da
+interpretação de texto, permitindo a construção de testes de capacidades
+específicas dos modelos de aprendizado. Abaixo, um exemplo de tarefa
+“pergunta e resposta suportada por um fato”:</p>
+
+<p><strong>Fato 1:</strong> Mary foi ao banheiro</p>
+
+<p><strong>Fato 2:</strong> John foi ao escritório</p>
+
+<p><strong>Onde está Mary?</strong></p>
+
+<p><strong>Resposta:</strong> No banheiro (baseado no <em>Fato 2</em>)</p>
 
 
 

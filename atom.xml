@@ -5,9 +5,88 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 May 2015 13:42:28 -0300</pubDate>
-    <lastBuildDate>Tue, 05 May 2015 13:42:28 -0300</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Mon, 18 May 2015 21:16:20 -0300</pubDate>
+    <lastBuildDate>Mon, 18 May 2015 21:16:20 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Links Selecionados - 18/05/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;http://instagram-engineering.tumblr.com/post/117889701472/emojineering-part-1-machine-learning-for-emoji&quot; target=&quot;_blank&quot;&gt;
+Emojineering
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Neste estudo, o Instagram analisa a adoção e o uso de emojis em seus
+posts. Utilizando o &lt;a href=&quot;https://code.google.com/p/word2vec/&quot; target=&quot;_blank&quot;&gt;word2vec&lt;/a&gt;, 
+a equipe analisou qual o contexto de cada emoji e quais palavras eles 
+normalmente representam.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://engineering.flipboard.com/2015/05/scaling-convnets/&quot; target=&quot;_blank&quot;&gt;
+Image Scaling using Deep Convolutional Neural Networks
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Redes neurais tem se tornado cada vez mais utilizadas por apresentarem
+bons resultados nas mais diversas áreas. Nesse post, a equipe do
+Flipboard apresenta alguns experimentos de redimensionamento de imagens
+utilizando Convolutional Neural Networks. O post ainda apresenta uma boa
+revisão dos conceitos de redes neurais.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://nerds.airbnb.com/overcoming-missing-values-in-a-rfc/&quot; target=&quot;_blank&quot;&gt;
+Overcoming Missing Values in a Random Forest Classifier
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Um dos desafios do trabalho com dados é lidar com bases que tenham
+informações incompletas. Existem diversas formas de lidar com este
+problema que vão desde o descarte da entrada incompleta até a estimativa
+dos valores desconhecidos. Neste post a equipe do AirBNB mostra como
+utiliza árvores de decisão para lidar com bases de dados com esta
+característica.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://www.odbms.org/blog/2015/04/powering-big-data-at-pinterest-interview-with-krishna-gade/&quot; target=&quot;_blank&quot;&gt;
+Powering Big Data at Pinterest
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Entrevista com Krishna Grade, engenheiro do time de dados do Pinterest,
+em que ele conta como é trabalhar com um produto e uma empresa com foco
+em dados. Além dos desafios do dia-a-dia, também são abordadas as
+tecnologias utilizadas na infraestrutura do Pinterest.&lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://blog.dato.com/parallel-ml-with-hogwild&quot; target=&quot;_blank&quot;&gt;
+Parallel Machine Learning with Hogwild!
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Algoritmos paralelos podem gastar um tempo significativo obtendo e
+liberando locks. Em alguns casos, uma técnica chamada Hogwild! pode ser
+utilizada para substituir o lock sem grandes prejuízos no resultado
+final. &lt;/p&gt;
+
+&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://research.facebook.com/researchers/1543934539189348&quot; target=&quot;_blank&quot;&gt;
+The bAbI project
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O Facebook divulgou um dataset artificial com tarefas que podem ser
+utilizadas para testar o entendimento de textos e a conexão entre fatos.
+As tarefas foram construidas isolando diferentes aspectos da
+interpretação de texto, permitindo a construção de testes de capacidades
+específicas dos modelos de aprendizado. Abaixo, um exemplo de tarefa
+“pergunta e resposta suportada por um fato”:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fato 1:&lt;/strong&gt; Mary foi ao banheiro&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fato 2:&lt;/strong&gt; John foi ao escritório&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Onde está Mary?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resposta:&lt;/strong&gt; No banheiro (baseado no &lt;em&gt;Fato 2&lt;/em&gt;)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 18 May 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/links/2015/05/18/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/links/2015/05/18/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 04/05/2015</title>
