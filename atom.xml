@@ -5,9 +5,77 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 May 2015 21:16:20 -0300</pubDate>
-    <lastBuildDate>Mon, 18 May 2015 21:16:20 -0300</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2015 20:31:21 -0300</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 20:31:21 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Links Selecionados - 01/06/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;http://karpathy.github.io/2015/05/21/rnn-effectiveness/&quot; target=&quot;_blank&quot;&gt;
+The Unreasonable Effectiveness of Recurrent Neural Networks
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Recurrent Neural Networks (RNN) são utilizadas quando o processamento
+dos dados é feito de forma sequencial. Por exemplo, no reconhecimento de
+texto escrito a mão e na 
+&lt;a href=&quot;http://cs.stanford.edu/people/karpathy/deepimagesent/&quot; target=&quot;_blank&quot;&gt;
+descrição automática de imagens&lt;/a&gt;. Este post
+apresenta uma explicação breve sobre RNNs além de um exemplo de geração
+de texto caractere por caractere.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://datascience.la/benchmarking-random-forest-implementations/&quot; target=&quot;_blank&quot;&gt;
+Benchmarking Random Forest Implementations
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Benchmark com diversas implementações de Random Forest levando em conta
+a qualidade do modelo e o tempo de processamento. O objetivo é encontrar
+uma implementação que possa ser utilizada no processamento de datasets
+com dez milhões de instâncias. &lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://yahoolabs.tumblr.com/post/118966433256/egads-a-scalable-configurable-and-novel-anomaly&quot; target=&quot;_blank&quot;&gt;
+EGADS: A Scalable, Configurable, and Novel Anomaly Detection System
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A detecção de anomalias em séries temporais é uma importante ferramenta
+para um Data Scientist. No caso do Yahoo Mail e Flickr, esse tipo de
+análise é conduzida nas métricas vitais do produto sempre que uma nova
+feature chega em produção. O código utilizado para detectar tais desvios
+pode ser acessado neste 
+&lt;a href=&quot;https://github.com/yahoo/egads&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://warkmilson.com/2015/05/15/three-years-of-logging-my-inbox-count.html&quot; target=&quot;_blank&quot;&gt;
+Three Years of Logging My Inbox Count
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Seguidores da filosofia Inbox Zero irão se identificar com Mark Wilson.
+Após três anos coletando seus emails, Mark realiza uma análise de
+diversos aspectos relacionados ao tempo de resposta e explora uma grande
+fonte de stress: o número de posts em sua caixa de entrada.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.dato.com/how-to-evaluate-machine-learning-models-part-1-orientation&quot; target=&quot;_blank&quot;&gt;
+How to Evaluate Machine Learning Models
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Série de posts que introduz como deve ser conduzida a avaliação de
+modelos de aprendizado de máquina. Conceitos abordados incluem: matriz
+de confusão, métricas de classificação e ranking, cross-validation e
+hyperparameter tuning.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://spin.atomicobject.com/2015/05/26/mean-shift-clustering/&quot; target=&quot;_blank&quot;&gt;
+Mean Shift Clustering
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Explicação sobre o algoritmo de clusterização Mean Shift com animações,
+gráficos, código e exemplo de aplicação na segmentação de imagens.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/blog/links/2015/06/01/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/06/01/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 18/05/2015</title>
@@ -80,8 +148,8 @@ específicas dos modelos de aprendizado. Abaixo, um exemplo de tarefa
 
 </description>
         <pubDate>Mon, 18 May 2015 00:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/links/2015/05/18/links-selecionados/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/links/2015/05/18/links-selecionados/</guid>
+        <link>http://www.behavedata.com/blog/links/2015/05/18/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/05/18/links-selecionados/</guid>
         
         
         <category>links</category>
@@ -130,8 +198,8 @@ representação dos atributos e a sua utilização em redes neurais. &lt;/p&gt;
 
 </description>
         <pubDate>Mon, 04 May 2015 00:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/links/2015/05/04/links-selecionados/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/links/2015/05/04/links-selecionados/</guid>
+        <link>http://www.behavedata.com/blog/links/2015/05/04/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/05/04/links-selecionados/</guid>
         
         
         <category>links</category>
@@ -205,8 +273,8 @@ de cinco campos: Ciência da Computação, Tecnologia dos Dados,
 Visualização, Matemática e Estatística.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Mar 2015 00:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/links/2015/03/17/links-selecionados/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/links/2015/03/17/links-selecionados/</guid>
+        <link>http://www.behavedata.com/blog/links/2015/03/17/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/03/17/links-selecionados/</guid>
         
         
         <category>links</category>
@@ -272,8 +340,8 @@ pares de alunos cujos resultados fugiam do padrão.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/img/2015/03/01/cola.png&quot; alt=&quot;Outliers são um indicativo de fraude&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Mar 2015 00:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/links/2015/03/01/links-selecionados/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/links/2015/03/01/links-selecionados/</guid>
+        <link>http://www.behavedata.com/blog/links/2015/03/01/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/03/01/links-selecionados/</guid>
         
         
         <category>links</category>
@@ -292,8 +360,8 @@ análise e apresentação dos resultados.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 20 Oct 2014 00:00:00 -0200</pubDate>
-        <link>http://www.behavedata.com/meetup/2014/10/20/data-science/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/meetup/2014/10/20/data-science/</guid>
+        <link>http://www.behavedata.com/blog/meetup/2014/10/20/data-science/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/meetup/2014/10/20/data-science/</guid>
         
         
         <category>meetup</category>
@@ -334,8 +402,8 @@ discussões e exposição de idéias.&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 10 Sep 2014 16:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/meta/2014/09/10/behavedata/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/meta/2014/09/10/behavedata/</guid>
+        <link>http://www.behavedata.com/blog/meta/2014/09/10/behavedata/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/meta/2014/09/10/behavedata/</guid>
         
         
         <category>meta</category>
