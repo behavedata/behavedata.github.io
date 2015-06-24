@@ -5,9 +5,93 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jun 2015 20:40:04 -0300</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 20:40:04 -0300</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2015 21:54:43 -0300</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2015 21:54:43 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Links Selecionados - 23/06/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;https://code.facebook.com/posts/861999383875667/recommending-items-to-more-than-a-billion-people/&quot; target=&quot;_blank&quot;&gt;
+Recommending items to more than a billion people
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Este artigo mostra como o Facebook utilizou o 
+&lt;a href=&quot;http://giraph.apache.org/&quot; target=&quot;_blank&quot;&gt;Apache Giraph&lt;/a&gt; 
+para escalar
+seu sistema de recomendação para 100 bilhões de avaliações, mais de um
+bilhão de usuários e milhões de itens. Esta implementação de
+Collaborative Filtering modela o processamento como um grafo, que reduz
+o volume de dados transportados por rede e que funciona de forma
+eficiente mesmo para datasets enviesados  (com alguns items avaliados
+por um número muito grande de usuários).&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.technologyreview.com/view/537891/virtual-eyes-train-deep-learning-algorithm-to-recognize-gaze-direction/&quot; target=&quot;_blank&quot;&gt;
+Virtual Eyes Train Deep Learning Algorithm to Recognize Gaze Direction
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Modelos complexos de Aprendizado de Máquina podem demandar grandes
+quantidades de informações para alcançar  bons resultados. Obter tais
+dados pode ser custoso, por exemplo no caso de detecção da direção do
+olhar. Pesquisadores da Inglaterra e Alemanha encontraram uma 
+&lt;a href=&quot;http://arxiv.org/abs/1505.05916&quot; target=&quot;_blank&quot;&gt;forma
+criativa&lt;/a&gt; para solucionar este problema: as imagens de treinamento são
+geradas a partir de modelos 3D de olhos.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://nerds.airbnb.com/aerosolve&quot; target=&quot;_blank&quot;&gt;
+Aerosolve: Machine learning for humans
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O Airbnb utiliza Aprendizado de Máquina para, entre outras aplicações,
+estimar a probabilidade de um imóvel ser alugado, dado o preço da sua
+diária e outros atributos. A biblioteca utilizada para esta análise foi
+publicada recentemente com uma licença 
+&lt;a href=&quot;https://github.com/airbnb/aerosolve&quot; target=&quot;_blank&quot;&gt;open-source&lt;/a&gt;. 
+Seu diferencial  é
+possibilitar o trabalho conjunto entre humanos e máquinas, obtendo
+melhores resultados que cada um isoladamente.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/donnemartin/data-science-ipython-notebooks&quot; target=&quot;_blank&quot;&gt;
+Data Science IPython Notebooks
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O &lt;a href=&quot;http://ipython.org/&quot; target=&quot;_blank&quot;&gt;IPython Notebook&lt;/a&gt;
+é uma excelente ferramenta para se realizar
+análises exploratórias de bases de dados e documentar os resultados
+obtidos. Este repositório contém um enorme número de Notebooks com
+exemplos de uso de ferramentas e bibliotecas como matplotlib, spark,
+scikit-learn, pandas e outros.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://googleresearch.blogspot.com.br/2015/06/inceptionism-going-deeper-into-neural.html&quot; target=&quot;_blank&quot;&gt;
+Inceptionism: Going Deeper into Neural Networks
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Uma forma de se entender melhor o comportamento de uma rede neural é
+invertendo o seu comportamento. Por exemplo, ao invés de utiliza-la para
+classificar uma imagem, a rede é utilizada para realçar em uma imagem
+(que pode ser inicialmente ruído) os atributos aprendidos. Pesquisadores
+do Google utilizaram este processo em uma rede neural treinada para
+reconhecer diversos objetos. Os resultados são imagens muito
+interessantes, que podem ser vistas nesta 
+&lt;a href=&quot;https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB&quot; target=&quot;_blank&quot;&gt;galeria&lt;/a&gt;.  &lt;/p&gt;
+&lt;h3&gt;&lt;a href=&quot;http://www.startup.ml/blog/hyperparam&quot; target=&quot;_blank&quot;&gt;
+State of Hyperparameter Selection
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Muitas vezes, avaliar conjuntos de parâmetros demanda um grande
+investimento de tempo. Por isso, testar diversas possibilidades e
+escolher o melhor resultado é um desafio prático do Aprendizado de
+Máquina. Neste post, são apresentadas formas mais eficientes para a
+escolha dos parâmetros, evitando, assim, o teste de todas as
+possibilidades.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/blog/links/2015/06/23/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/06/23/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 01/06/2015</title>
