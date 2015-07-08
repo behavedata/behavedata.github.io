@@ -5,9 +5,77 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Jun 2015 21:54:43 -0300</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2015 21:54:43 -0300</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2015 21:13:19 -0300</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2015 21:13:19 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Links Selecionados - 07/07/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;http://www.bayesimpact.org/&quot; target=&quot;_blank&quot;&gt;
+Bayes Impact
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A Bayes Impact é uma Organização não Governamental mundial comprometida
+em solucionar grandes problemas utilizando Data Science. Em seu &lt;a href=&quot;http://www.bayesimpact.org/stories&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; é
+possível entender como a ONG enfrenta os desafios e qual o seu processo
+de análise dos dados.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.analyticsvidhya.com/blog/2015/06/solution-kaggle-competition-bike-sharing-demand/&quot; target=&quot;_blank&quot;&gt;
+Kaggle Bike Sharing Demand Prediction
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Neste post, Sunil Ray mostra o processo que utilizou na competição do
+Kaggle para predição de demanda de aluguel de bicicletas. Descreve-se
+desde a análise dos dados até a criação dos atributos (feature
+engineering) e aplicação dos algoritmos de aprendizado de máquina.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://nerds.airbnb.com/designing-machine-learning-models/&quot; target=&quot;_blank&quot;&gt;
+Designing Machine Learning Models: A Tale of Precision and Recall
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O AirBNB utiliza aprendizado de máquina para solucionar diversos
+problemas internos, como detecção de transações fraudulentas. Neste
+post, uma engenheira compartilha quais são os primeiros passos para a
+criação e avaliação de modelos de aprendizado de máquina. Este conteúdo
+é uma boa leitura para quem desejar iniciar na área.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/wbkd/awesome-d3&quot; target=&quot;_blank&quot;&gt;
+Awesome D3
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O &lt;a href=&quot;http://d3js.org/&quot; target=&quot;_blank&quot;&gt;D3&lt;/a&gt; é uma biblioteca
+para a manipulação de documentos baseada em dados. Cada vez mais, esta
+biblioteca vem se tornando o padrão para visualizações no browser
+(interativas ou não). O repositório awesome-d3 é uma lista que organiza
+algumas das opções para se aprender ou utilizar o D3.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/ChristosChristofidis/awesome-deep-learning&quot; target=&quot;_blank&quot;&gt;
+Awesome Deep Learning
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Neste repositório é possível ver uma lista de links curados sobre Deep
+Learning. Nesta lista podem ser encontrados materiais como cursos,
+tutoriais, artigo, frameworks e outros.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://www.kaggle.com/c/otto-group-product-classification-challenge/forums/t/14335/1st-place-winner-solution-gilberto-titericz-stanislav-semenov/79598#post79598&quot; target=&quot;_blank&quot;&gt;
+Solução vencedora do Otto Group Classification Challenge
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O Otto Group Classification Challenge contou com a participação de quase
+4 mil data scientists, tornando-se um dos desafios mais populares do
+Kaggle. Neste post, o time vencedor explica sua estratégia baseada em
+ensemble que utilizada 33 modelos diferentes no primeiro nível. A
+estratégia utilizada pelo segundo colocado pode ser vista
+&lt;a href=&quot;http://blog.kaggle.com/2015/06/09/otto-product-classification-winners-interview-2nd-place-alexander-guschin/&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/blog/links/2015/06/23/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/06/23/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 23/06/2015</title>
