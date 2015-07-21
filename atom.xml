@@ -5,9 +5,81 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Jul 2015 21:15:55 -0300</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2015 21:15:55 -0300</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Mon, 20 Jul 2015 21:00:30 -0300</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2015 21:00:30 -0300</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Links Selecionados - 20/07/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;http://maximiliankiener.com/digitalprojects/time/&quot; target=&quot;_blank&quot;&gt;
+Why time flies
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Conforme o tempo passa, temos, cada vez mais, a sensação de que ele anda
+mais rápido. Nessa visualização interativa, Maximilian Kiener mostra
+porque um ano dura tanto tempo quando somos crianças e tão pouco quando
+adultos.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://kateto.net/network-visualization&quot; target=&quot;_blank&quot;&gt;
+Static and dynamic network visualization with R
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;A visualização de redes é muitas vezes essencial para se entender a
+relação entre diferentes atores. Em uma rede social, por exemplo, a
+visualização pode ajudar a detectar comunidades ou a explicar como a
+comunicação flui entre as diferentes pessoas. Neste post, é apresentado
+um tutorial completo sobre como utilizar R para criar este tipo de
+visualização.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.kyunghyuncho.me/home/blog/briefsummaryofthepaneldiscussionatdlworkshopicml2015&quot; target=&quot;_blank&quot;&gt;
+Brief Summary of the Panel Discussion at Deep Learning Workshop
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Este mês ocorreu mais uma edição da International Conference on Machine
+Learning (ICML), que é uma das mais importantes conferências sobre
+aprendizado de máquina. Em um painel sobre Deep Learning seis
+importantes pesquisadores discutiram temas como indústria versus
+universidades, os perigos da inteligência artificial e novas tendências.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://nerds.airbnb.com/scaling-data-science/&quot; target=&quot;_blank&quot;&gt;
+At Airbnb, Data Science Belongs Everywhere: Insights from Five Years of
+Hypergrowth
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Ouvir e entender os clientes são partes fundamentais de qualquer
+negócio. Prover este tipo de informação de forma rápida e acessível a
+todos não é uma tarefa fácil e exige alguma metodologia escalável. Neste
+post, um data scientist do Airbnb conta como eles promoveram o acesso
+aos dados em uma empresa em rápido crescimento.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://techblog.netflix.com/2015/07/tracking-down-villains-outlier.html&quot; target=&quot;_blank&quot;&gt;
+Tracking down the Villains: Outlier Detection at Netflix
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Detecção de outliers é útil em diferentes cenários. Uma possível
+aplicação é na identificação de servidores que não estão performando
+corretamente. Neste post, o Netflix apresenta como soluciona este
+problema utilizando um algoritmo de clusterização.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://iamtrask.github.io/2015/07/12/basic-python-network/&quot; target=&quot;_blank&quot;&gt;
+A Neural Network in 11 lines of Python
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Redes neurais podem ter diferentes arquiteturas e níveis de
+complexidade. Para quem deseja conhecer esta área, este post pode ser um
+bom primeiro passo. O autor apresenta de forma gradativa o funcionamento
+de uma rede neural simples, assim como o algoritmo para seu treinamento
+(backpropagation).&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Jul 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/blog/links/2015/07/20/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/07/20/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 07/07/2015</title>
