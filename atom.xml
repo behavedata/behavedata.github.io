@@ -5,9 +5,65 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Jul 2015 10:04:35 -0300</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2015 10:04:35 -0300</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Sun, 16 Aug 2015 22:12:43 -0300</pubDate>
+    <lastBuildDate>Sun, 16 Aug 2015 22:12:43 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Links Selecionados - 17/08/2015</title>
+        <description>&lt;h3&gt;&lt;a href=&quot;https://indico.io/blog/plotlines/&quot; target=&quot;_blank&quot;&gt;
+Exploring the shapes of stories using Python and sentiment APIs
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Kurt Vonnegut apresentou em uma &lt;a href=&quot;https://www.youtube.com/watch?v=oP3c1h8v2ZQ&quot; target=&quot;_blank&quot;&gt;aula&lt;/a&gt; uma formula simples para se analisar histórias
+com base no conflito entre bem e mal. Neste post, engenheiros da Indico
+utilizam aprendizado de máquina e técnicas de análise de séries
+temporais para testar esta hipótese em diferentes filmes da Disney.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.alfredo.motta.name/cross-validation-done-wrong/&quot; target=&quot;_blank&quot;&gt;
+Cross Validation done wrong
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Cross Validation é uma ferramenta essencial para avaliação de métodos de
+aprendizado de máquina. Falhas nesta avaliação podem criar uma falsa
+expectativa quanto à verdadeira qualidade dos modelos produzidos. Este
+artigo discute um tipo de erro comum em validações cruzadas.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.edupristine.com/blog/beyond-k-means&quot; target=&quot;_blank&quot;&gt;
+Beyond the k-Means – the Right k
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;O K-Means é um algoritmo de clusterização bastante popular. Um dos
+desafios práticos é a escolha do número de clusters que devem ser
+calculados. Neste post são apresentadas algumas das alternativas para
+escolha do valor deste parâmetro.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.r2d3.us/visual-intro-to-machine-learning-part-1/&quot; target=&quot;_blank&quot;&gt;
+A Visual Introduction to Machine Learning
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;De forma visual e interativa, este experimento traz uma introdução ao
+aprendizado de máquina. Eles utilizam a tarefa de determinar se uma casa
+está em Nova York ou São Francisco para ilustrar os conceitos de
+aprendizado de máquina. É um excelente exemplo de como visualizações
+podem facilitar o entendimento de temas complexos.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/rushter/data-science-blogs&quot; target=&quot;_blank&quot;&gt;
+Data science blogs
+&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Este repositório contém uma lista com diversos blogs que tratam sobre
+data science.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0300</pubDate>
+        <link>http://www.behavedata.com/blog/links/2015/08/17/links-selecionados/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/08/17/links-selecionados/</guid>
+        
+        
+        <category>links</category>
+        
+      </item>
     
       <item>
         <title>Links Selecionados - 20/07/2015</title>
@@ -212,7 +268,7 @@ classificar uma imagem, a rede é utilizada para realçar em uma imagem
 do Google utilizaram este processo em uma rede neural treinada para
 reconhecer diversos objetos. Os resultados são imagens muito
 interessantes, que podem ser vistas nesta 
-&lt;a href=&quot;https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB&quot; target=&quot;_blank&quot;&gt;galeria&lt;/a&gt;.  &lt;/p&gt;
+&lt;a href=&quot;https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB&quot; target=&quot;_blank&quot;&gt;galeria&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;http://www.startup.ml/blog/hyperparam&quot; target=&quot;_blank&quot;&gt;
 State of Hyperparameter Selection
 &lt;/a&gt;&lt;/h3&gt;
@@ -254,7 +310,7 @@ Benchmarking Random Forest Implementations
 &lt;p&gt;Benchmark com diversas implementações de Random Forest levando em conta
 a qualidade do modelo e o tempo de processamento. O objetivo é encontrar
 uma implementação que possa ser utilizada no processamento de datasets
-com dez milhões de instâncias. &lt;/p&gt;
+com dez milhões de instâncias.&lt;/p&gt;
 
 &lt;h3&gt;&lt;a href=&quot;http://yahoolabs.tumblr.com/post/118966433256/egads-a-scalable-configurable-and-novel-anomaly&quot; target=&quot;_blank&quot;&gt;
 EGADS: A Scalable, Configurable, and Novel Anomaly Detection System
@@ -349,7 +405,7 @@ Parallel Machine Learning with Hogwild!
 &lt;p&gt;Algoritmos paralelos podem gastar um tempo significativo obtendo e
 liberando locks. Em alguns casos, uma técnica chamada Hogwild! pode ser
 utilizada para substituir o lock sem grandes prejuízos no resultado
-final. &lt;/p&gt;
+final.&lt;/p&gt;
 
 &lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://research.facebook.com/researchers/1543934539189348&quot; target=&quot;_blank&quot;&gt;
 The bAbI project
@@ -418,7 +474,7 @@ Deep Learning e processamento de linguagem natural
 
 &lt;p&gt;Este post aborda aplicações de Deep Learning no processamento
 de linguagem natural. Mais específicamente, o autor fala sobre a
-representação dos atributos e a sua utilização em redes neurais. &lt;/p&gt;
+representação dos atributos e a sua utilização em redes neurais.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 04 May 2015 00:00:00 -0300</pubDate>
@@ -470,7 +526,7 @@ Apache Spark 1.3
 
 &lt;p&gt;Uma nova versão do Spark foi lançada. Uma das novidades desta versão é a
 API de &lt;a href=&quot;https://databricks.com/blog/2015/03/13/announcing-spark-1-3.html&quot; target=&quot;_blank&quot;&gt;DataFrame&lt;/a&gt; inspirada nos DataFrames de R. Este será um formato
-comum para comunicação e interoperabilidade. &lt;/p&gt;
+comum para comunicação e interoperabilidade.&lt;/p&gt;
 
 &lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://timdettmers.wordpress.com/2015/03/09/deep-learning-hardware-guide/&quot; taget=&quot;_blank&quot;&gt;
 Guia de Hardware para Deep Learning
@@ -589,48 +645,6 @@ análise e apresentação dos resultados.&lt;/p&gt;
         
         
         <category>meetup</category>
-        
-      </item>
-    
-      <item>
-        <title>A Origem do BehaveData</title>
-        <description>&lt;p&gt;Conversando com alguns empreendedores, notei uma dificuldade comum em
-encontrar profissionais com conhecimento e experiência necessários para
-trabalhar transformando dados em insights. A princípio isso foi uma
-surpresa. Apesar de essa área ser relativamente recente, conheço
-diversos profissionais e estudantes que são adequados para assumir este
-tipo função no mercado.&lt;/p&gt;
-
-&lt;p&gt;A necessidade de conectar melhor as empresas e o mundo acadêmico não é
-algo novo, tão pouco exclusivo, do Brasil. Uma empresa chamada
-&lt;a href=&quot;http://techcrunch.com/2014/08/18/algorithmia-raises-2-4m-to-connect-academia-and-app-developers/?utm_campaign=fb&amp;amp;ncid=fb&quot; target=&quot;_blank&quot;&gt;
-Algorithmia&lt;/a&gt;, por exemplo, tenta melhorar esta conexão por meio  de um
-market-place em que pesquisadores podem desenvolver algoritmos sem se
-preocupar com as necessidades de um ambiente de produção. O algoritmo
-criado é disponibilizado via API e pode gerar renda sempre que
-utilizado. Apesar de essa iniciativa encurtar o caminho que a tecnologia
-faz entre pesquisa e mercado, ela ainda não resolve o problema do
-capital humano.&lt;/p&gt;
-
-&lt;p&gt;O BehaveData surgiu como uma maneira de estimular a troca de
-conhecimento entre estudantes, professores e data scientists do mercado.
-A universidade passa a conhecer os desafios das empresas e recebe o
-apoio para formar novos empreendedores. Por outro lado, as empresas
-entram em contato com tecnologia de ponta e passam a conhecer os
-profissionais de que necessitam.&lt;/p&gt;
-
-&lt;p&gt;Para atingir este objetivo, vemos o BehaveData como uma comunidade não
-só para divulgação e publicação de conteúdo livre, como também uma
-organização responsável por promover encontros presenciais para
-discussões e exposição de idéias.&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 10 Sep 2014 16:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/blog/meta/2014/09/10/behavedata/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/blog/meta/2014/09/10/behavedata/</guid>
-        
-        
-        <category>meta</category>
         
       </item>
     
