@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-<title>BehaveData :: Links Selecionados - 20/07/2015</title>
+<title>BehaveData :: Algumas informações úteis sobre Machine Learning</title>
 
 <!-- Meta -->
 <meta charset="utf-8">
@@ -111,68 +111,118 @@
       <div class="news-v3-in">
         <ul class="list-inline posted-info">
           <li>Por Thiago Cardoso</li>
-          <li>20/07/2015</li>
+          <li>28/09/2015</li>
         </ul>
-        <h2><a href="/blog/links/2015/07/20/links-selecionados/">Links Selecionados - 20/07/2015</a></h2>
-        <h3><a href="http://maximiliankiener.com/digitalprojects/time/" target="_blank">
-Why time flies
-</a></h3>
+        <h2><a href="/blog/machine-learning/2015/09/28/informacoes-uteis-machine-learning/">Algumas informações úteis sobre Machine Learning</a></h2>
+        <p>Nota: Este post é uma adaptação do artigo
+<a href="https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf" target="_blank">A Few Useful Things to Know About Machine Learning</a> do Pedro Domingos.</p>
 
-<p>Conforme o tempo passa, temos, cada vez mais, a sensação de que ele anda
-mais rápido. Nessa visualização interativa, Maximilian Kiener mostra
-porque um ano dura tanto tempo quando somos crianças e tão pouco quando
-adultos.</p>
+<p>Algoritmos de Aprendizado de Máquina são capazes de aprender como executar diferentes
+tarefas a partir de exemplos: uma excelente alternativa nos casos em que desenvolver um
+algoritmo é um grande desafio ou tem um grande custo. Os métodos de aprendizao de máquina
+têm se tornado bastante populares e aplicações vão desde detecção de spam até o
+desenvolvimento de novos remédios.</p>
 
-<h3><a href="http://kateto.net/network-visualization" target="_blank">
-Static and dynamic network visualization with R
-</a></h3>
+<p>Apesar da abundância de material sobre o tema, existem diversas peculiaridades e desafios
+na prática. Conhecer essas características reduz o tempo de implementação destes sistemas
+além de auxiliar na obtenção de melhores resultados.</p>
 
-<p>A visualização de redes é muitas vezes essencial para se entender a
-relação entre diferentes atores. Em uma rede social, por exemplo, a
-visualização pode ajudar a detectar comunidades ou a explicar como a
-comunicação flui entre as diferentes pessoas. Neste post, é apresentado
-um tutorial completo sobre como utilizar R para criar este tipo de
-visualização.</p>
+<h3 id="aprendizado--representao--avaliao--otimizao">Aprendizado = Representação + Avaliação + Otimização</h3>
 
-<h3><a href="http://www.kyunghyuncho.me/home/blog/briefsummaryofthepaneldiscussionatdlworkshopicml2015" target="_blank">
-Brief Summary of the Panel Discussion at Deep Learning Workshop
-</a></h3>
+<p>Algoritmos de Aprendizado de Máquina podem ser vistos como uma combinação de três
+componentes: representação, avaliação e otimização.</p>
 
-<p>Este mês ocorreu mais uma edição da International Conference on Machine
-Learning (ICML), que é uma das mais importantes conferências sobre
-aprendizado de máquina. Em um painel sobre Deep Learning seis
-importantes pesquisadores discutiram temas como indústria versus
-universidades, os perigos da inteligência artificial e novas tendências.</p>
+<h4 id="representao">Representação</h4>
 
-<h3><a href="http://nerds.airbnb.com/scaling-data-science/" target="_blank">
-At Airbnb, Data Science Belongs Everywhere: Insights from Five Years of
-Hypergrowth
-</a></h3>
+<p>Os classificadores devem ser representados de forma que possam ser interpretados pelo
+computador. Quando escolhemos uma representação, estamos também definindo premissas que
+limitam o que tal classificador é capaz de aprender. Esse conjunto de possíveis modelos
+é conhecido como espaço de hipóteses. Este espaço explica porque alguns classificadores
+não são capazes de aprender a calcular o XOR a partir de uma tabela verdade mesmo com
+todos os exemplos.</p>
 
-<p>Ouvir e entender os clientes são partes fundamentais de qualquer
-negócio. Prover este tipo de informação de forma rápida e acessível a
-todos não é uma tarefa fácil e exige alguma metodologia escalável. Neste
-post, um data scientist do Airbnb conta como eles promoveram o acesso
-aos dados em uma empresa em rápido crescimento.</p>
+<p>Por exemplo, o classificador K-nearest neighbors (KNN) utiliza uma representação baseada
+em instâncias e a Regressão Logística tem uma representação baseada em hiperplanos.</p>
 
-<h3><a href="http://techblog.netflix.com/2015/07/tracking-down-villains-outlier.html" target="_blank">
-Tracking down the Villains: Outlier Detection at Netflix
-</a></h3>
+<h4 id="avaliao">Avaliação</h4>
 
-<p>Detecção de outliers é útil em diferentes cenários. Uma possível
-aplicação é na identificação de servidores que não estão performando
-corretamente. Neste post, o Netflix apresenta como soluciona este
-problema utilizando um algoritmo de clusterização.</p>
+<p>A função de avaliação (ou função objetivo) é utilizada para avaliar os classificadores
+dentro de um espaço de hipóteses. Desta forma, podemos escolher um bom classificador
+dentre todas as possibilidades. Note que a função de avaliação não necessariamente é
+a mesma utilizada para avaliar o resultado final do classificador.</p>
 
-<h3><a href="http://iamtrask.github.io/2015/07/12/basic-python-network/" target="_blank">
-A Neural Network in 11 lines of Python
-</a></h3>
+<p>Cada tipo de problema tem uma função de avaliação apropriada. Alguns exemplos são:
+acurácia, precisão/revocação e erro ao quadrado.</p>
 
-<p>Redes neurais podem ter diferentes arquiteturas e níveis de
-complexidade. Para quem deseja conhecer esta área, este post pode ser um
-bom primeiro passo. O autor apresenta de forma gradativa o funcionamento
-de uma rede neural simples, assim como o algoritmo para seu treinamento
-(backpropagation).</p>
+<h4 id="otimizao">Otimização</h4>
+
+<p>Por fim, precisamos de um método que utilizará a função de avaliação em uma busca
+por boas hipóteses. A escolha do método de otimização é um fator determinante na
+eficiência do aprendizado.</p>
+
+<p>Alguns exemplos de técnicas de otimização são: gradient descent, programação linear,
+busca gulosa, branch and bound, etc.</p>
+
+<h3 id="a-generalizao-que-conta">É a generalização que conta</h3>
+
+<p>O objetivo fundamental do Aprendizado de Máquina é conseguir generalizar o conhecimento
+para além das instâncias de treino, uma vez que, na prática, dificilmente o algoritmo
+irá se deparar com instâncias previamente vistas. Em uma classificação de documentos
+como Spam, com um vocabulário com 100.000 palavras, há \(2^{100000}\) diferentes combinações
+de textos de entrada.</p>
+
+<p>Por isso, é fundamental testar os classificadores em dados que ele ainda não conhece. Ter um score perfeito no conjunto de treino, é tão simples quanto memorizar todos os exemplos fornecidos. Uma das formas mais populares de se avaliar um classificador é utilizando um processo de cross-validation, em que diferentes conjuntos de dados são utilizados para treino e teste.</p>
+
+<p>Além do cuidado na separação dos conjuntos de dados, é importante garantir que não haverá “vazamento” de informação durante a avaliação. Isso pode ocorrer ao se otimizar parâmetros utilizando o conjunto de teste, ou em features que possam carregar informações sobre a classe que não estarão disponíveis para o classificador em produção.</p>
+
+<p>É importante seguir uma metodologia de avaliação uma vez que buscamos otimizar uma função que não pode ser acessada (o erro do classificador nas instâncias de teste). Este cuidado ajuda a utilizar o erro conhecido como uma aproximação do erro real (função desconhecida).</p>
+
+<h3 id="dados-sozinhos-no-so-o-bastante">Dados sozinhos não são o bastante</h3>
+
+<p>Como o principal foco é obter a generalização dos dados apresentados no treino, somente ter exemplos da tarefa não é suficiente. No exemplo do Spam, o número de entradas possíveis pode ser muito grande, de forma que o classificador nunca terá conhecido uma parte expressiva das possibilidades.</p>
+
+<p>Desta forma, os classificadores devem trazer algum conhecimento próprio, normalmente no formato de suposições sobre os dados. Por exemplo, o classificador Naive Bayes assume que os atributos dos documentos são variáveis independentes.</p>
+
+<p>Devido a essas suposições, não existe um classificador que seja uma bala de prata do Aprendizado de Máquina. Esta intuição foi formalizada por Wolpert no famoso teorema <em>“no free lunch”</em>, que diz que um classificador não pode ser melhor que a escolha aleatória em todas as situações.</p>
+
+<h3 id="overfitting">Overfitting</h3>
+<p>Quando tentamos aprender um modelo sem ter uma quantidade suficiente de informação, corremos o risco de generalizar incorretamente peculiaridades dos dados. Este problema é conhecido como <em>overfitting</em>. Quando um classificador tem 100% de acerto no treino e 50% no teste, enquanto ele deveria ter 75% de acerto em ambos conjuntos, dizemos que este classificador sofre de <em>overfitting</em>.</p>
+
+<p>Uma forma ilustrativa de se compreender tal fenômeno, é separando o erro de generalização em viés (<em>bias</em>) e variância (<em>variance</em>). Viés é a tendência de um classificador aprender consistentemente uma generalização incorreta (por exemplo, pela simplicidade do modelo). Variância, é a tendência de se aprender fatos aleatórios independentemente do sinal real. Um classificador capaz de aprender um modelo muito complexo, tem alta variância por ser capaz de aprender padrões que possam não ser reais. Isso faz com que, de forma contra-intuitiva, os classificadores mais complexos não sejam sempre a melhor alternativa.</p>
+
+<p align="center">
+<img src="/img/2015/09/target.png" />
+</p>
+
+<h3 id="nossa-intuio--falha-em-alta-dimensionalidade">Nossa intuição é falha em alta dimensionalidade</h3>
+
+<p>Outro grande desafio do Aprendizado de Máquina é a <em>maldição da dimensionalidade</em>. Essa expressão foi criada para se referir ao fato de que algoritmos que funcionam muito bem em baixa dimensionalidade, podem se tornar intratáveis conforme aumenta o número de dimensões. Fixando o número de exemplos, conforme aumentamos a dimensionalidade (número de atributos) passamos a cobrir uma porcentagem cada vez menor das possibilidades de entrada.</p>
+
+<p>Conforme são adicionadas novas dimensões, ocorre também uma diminuição da distância entre instâncias (a contribuição de uma dimensão no valor final da distância diminui). Isso faz com que representações baseadas em instâncias também sofram com a alta dimensionalidade.</p>
+
+<p>Desenvolver métodos que atuem em alta dimensionalidade é um grande desafio uma vez que estamos acostumados a pensar em 2D e 3D. Nossa intuição normalmente não funciona em espaços com um grande número de dimensões. Por exemplo, nesse tipo de espaço, a maior parte do volume de uma laranja se encontra em sua casca e não na polpa.</p>
+
+<p>Um ponto positivo, porém, é que apesar de o espaço ter muitas dimensões, os dados não distibuídos de forma uniforme. Isso significa que os dados normalmente são concentrados de forma a facilitar o aprendizado. Por exemplo, na detecção de dígitos escritos, o número de imagens que fazem sentido é bem menor que o número total de possibilidades.</p>
+
+<h3 id="feature-engineering--extremamente-importante">Feature engineering é extremamente importante</h3>
+
+<p>Um dos pontos mais importantes para um projeto de Aprendizado de Máquina bem sucedido é a engenharia de atributos. Se os seus dados contém um grande número de features independentes com alta correlação com a classe, então o aprendizado é fácil. Por outro lado, se a classe é o resultado de uma combinação complexa das features, pode ser inviável aprender esta relação.</p>
+
+<p>Muitas vezes o dado bruto não apresenta as características desejáveis para o aprendizado, porém tais características podem ser obtidas através de algumas transformações. Trabalhar os atributos de forma a facilitar o aprendizado é uma das partes mais importantes do processo e normalmente é aquela que consome a maior parte dos esforços.</p>
+
+<p>Enquanto algoritmos de aprendizado são relativamente genéricos e agnósticos à aplicação, a engenharia de atributos é completamente dependente do domínio da aplicação. Por isso, existe um grande esforço para se desenvolver sistemas capazes de criar representações de forma automática, como é o caso dos <em>Deep Autoencoders</em>.</p>
+
+<h3 id="aumentar-o-treinamento-normalmente--mais-eficaz-que-melhorar-o-algoritmo">Aumentar o treinamento normalmente é mais eficaz que melhorar o algoritmo</h3>
+
+<p>Muitas vezes nos encontramos em um ponto em que os resultados dos classificadores não são bons o bastante. Nesta situação, existem duas opções: desenvolver um algoritmo melhor ou aumentar a quantidade de exemplos (ou atributos). Pesquisadores normalmente estão interessados na primeira solução, porém a forma mais eficiente de se melhorar a qualidade de modelos é por meio da aquisição de mais informação. Como regra geral, um algoritmo simples com muita informação disponível, é melhor que um algoritmo complexo com poucos dados.</p>
+
+<h3 id="concluso">Conclusão</h3>
+
+<p>Utilizar algoritmos de Aprendizado de Máquina de forma eficiente exige um conhecimento que nem
+sempre pode ser encontrado em livros. Uma forma de adquirir este conhecimento é através da prática
+em diferentes domínios. Caso se interesse em ler mais sobre estes e outros pontos o artigo
+<a href="https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf" target="_blank"><em>A Few Useful Things to Know About Machine Learning</em></a>
+é um excelente ponto de partida.</p>
 
 
       </div>
