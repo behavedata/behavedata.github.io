@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-<title>BehaveData :: Minas Startup Week</title>
+<title>BehaveData :: Classificando passos com o Jawbone</title>
 
 <!-- Meta -->
 <meta charset="utf-8">
@@ -110,19 +110,67 @@
     <div class="news-v3 margin-bottom-30">
       <div class="news-v3-in">
         <ul class="list-inline posted-info">
-          <li>28/09/2015</li>
+          <li>Por Vitor Oliveira</li>
+          <li>18/10/2015</li>
         </ul>
-        <h2><a href="/events/2015-09-28-minas-startup-week/">Minas Startup Week</a></h2>
-        <p>Startup Week é uma celebração de 5 dias da nossa comunidade de Startups em
-Belo Horizonte. É uma conferência com mais de 70 atividades totalmente gratuitas
-para celebrar o empreendedorismo e formarmos conexões.</p>
+        <h2><a href="/blog/machine-learning/2015/10/18/classificando-passos-jawbone/">Classificando passos com o Jawbone</a></h2>
+        <p>A <a href="https://jawbone.com" targer="_blank">Jawbone</a> publicou um 
+<a href="https://jawbone.com/blog/classifying-steps-machine-learning/" target="_blank">post</a>  muito
+interessante sobre classificação de passos (nossos passos ao caminhar)
+utilizando Machine Learning. 
+Para quem não conhece, a Jawbone é focada em tecnologia para o
+consumidor e principalmente dispositivos wearable. Um dos produtos de
+mais destaque da Jawbone é o sistema UP de monitoramento. Eu tenho uma
+UP24 e acompanho diariamente os meus passos :).</p>
 
-<p>Para maiores informações sobre as palestras entre em
-<a href="http://minas.startupweek.co/" target="_blank">minas.startupweek.co</a>.</p>
+<p>O post da Jawbone me chamou a atenção porque, apesar de ser sobre
+Machine Learning e classificação, o foco não é o algoritmo mas sim como
+modelar o problema e construir o dataset para experimentação. Imaginem o
+desafio de construir um dataset representativo
+de passos - quais features utilizar? Como representar pessoas altas e
+baixas? Apressadas? Utilizando o celular? Puxando uma mala? A escolha
+das instâncias do dataset e suas features é fundamental para o sucesso
+do modelo preditivo. </p>
+
+<p>Esse post me fez lembrar que muitas vezes há uma grande ênfase no
+algoritmos para classificação. No Kaggle, por exemplo, o objetivo da
+maioria das competições é encontrar 
+o algoritmo com o melhor resultado. O problema desta abordagem, é
+que a parte mais difícil e interessante do processo de modelagem
+preditiva já foi resolvida. Na maioria dos projetos de modelagem
+preditiva que participei a parte mais difícil sempre foi a
+construção do dataset:</p>
+
+<p>Como escolher instâncias que sejam representativas da população de
+interesse?
+Como representar essas instâncias? Quais features utilizar?
+Como representar a variável resposta?
+Como evitar data leakage (quando a variável resposta acaba “vazando”
+para uma feature)?
+Como incorporar novas instâncias? 
+Quando o modelo preditivo precisa ser atualizado?</p>
+
+<p>Este desafio se torna ainda maior quando o objetivo é modelar
+fenômenos sociais. Confira o post da Jawbone que é um bom exemplo do
+processo de modelar um problema de predição, 
+desde as escolhas instâncias, features e atualização do modelo.</p>
 
 
       </div>
     </div>
+    <div class="blog-author margin-bottom-30">
+      <img src="/img/avatar/vitor.png" alt="">
+      <div class="blog-author-desc">
+        <div class="overflow-h">
+          <h4><a href="http://br.linkedin.com/in/vitorcoliveira" target="_blank">Vitor Oliveira</h4>
+          <ul class="list-inline">
+            <li><a href="http://www.twitter.com/vitorcoliveira" target="_blank" alt="@vitorcoliveira"><i class="fa fa-twitter" alt="@vitorcoliveira"></i></a></li>
+          </ul>
+        </div>
+        <p>Vitor Oliveira é graduado e mestre em Ciência da Computação pela Universidade Federal de Minas Gerais. Como pesquisador publicou artigos sobre os efeitos temporais na  classificação automática de texto, expansão de consultas em máquinas de busca e aprendizado de máquina aplicado à ranking. Além disso, liderou um time de pesquisadores no Yahoo! Learning to Rank Challenge classificando-se entre os top 5%. Como Data Scientist foi responsável pela concepção e desenvolvimento de sistemas de larga escala para reconhecimento de entidades, classificação e recomendação de conteúdo, predição de click , otimização de campanhas digitais (Multi-armed Bandit Algorithms) e predição de churn. Atualmente, como Chief Data Officer da Tripda (plataforma de caronas presente em 13 países) lidera um time responsável pelo processamento, mineração e análise dos dados com o objetivo de extrair valor e direcionar a tomada de decisão em todas áreas da empresa. </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 

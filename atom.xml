@@ -5,9 +5,62 @@
     <description>BehaveData é uma comunidade para Data Scientists.</description>
     <link>http://www.behavedata.com/</link>
     <atom:link href="http://www.behavedata.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Sep 2015 22:54:06 -0300</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2015 22:54:06 -0300</lastBuildDate>
+    <pubDate>Sat, 17 Oct 2015 14:56:48 -0300</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2015 14:56:48 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Classificando passos com o Jawbone</title>
+        <description>&lt;p&gt;A &lt;a href=&quot;https://jawbone.com&quot; targer=&quot;_blank&quot;&gt;Jawbone&lt;/a&gt; publicou um 
+&lt;a href=&quot;https://jawbone.com/blog/classifying-steps-machine-learning/&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt;  muito
+interessante sobre classificação de passos (nossos passos ao caminhar)
+utilizando Machine Learning. 
+Para quem não conhece, a Jawbone é focada em tecnologia para o
+consumidor e principalmente dispositivos wearable. Um dos produtos de
+mais destaque da Jawbone é o sistema UP de monitoramento. Eu tenho uma
+UP24 e acompanho diariamente os meus passos :).&lt;/p&gt;
+
+&lt;p&gt;O post da Jawbone me chamou a atenção porque, apesar de ser sobre
+Machine Learning e classificação, o foco não é o algoritmo mas sim como
+modelar o problema e construir o dataset para experimentação. Imaginem o
+desafio de construir um dataset representativo
+de passos - quais features utilizar? Como representar pessoas altas e
+baixas? Apressadas? Utilizando o celular? Puxando uma mala? A escolha
+das instâncias do dataset e suas features é fundamental para o sucesso
+do modelo preditivo. &lt;/p&gt;
+
+&lt;p&gt;Esse post me fez lembrar que muitas vezes há uma grande ênfase no
+algoritmos para classificação. No Kaggle, por exemplo, o objetivo da
+maioria das competições é encontrar 
+o algoritmo com o melhor resultado. O problema desta abordagem, é
+que a parte mais difícil e interessante do processo de modelagem
+preditiva já foi resolvida. Na maioria dos projetos de modelagem
+preditiva que participei a parte mais difícil sempre foi a
+construção do dataset:&lt;/p&gt;
+
+&lt;p&gt;Como escolher instâncias que sejam representativas da população de
+interesse?
+Como representar essas instâncias? Quais features utilizar?
+Como representar a variável resposta?
+Como evitar data leakage (quando a variável resposta acaba “vazando”
+para uma feature)?
+Como incorporar novas instâncias? 
+Quando o modelo preditivo precisa ser atualizado?&lt;/p&gt;
+
+&lt;p&gt;Este desafio se torna ainda maior quando o objetivo é modelar
+fenômenos sociais. Confira o post da Jawbone que é um bom exemplo do
+processo de modelar um problema de predição, 
+desde as escolhas instâncias, features e atualização do modelo.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 18 Oct 2015 01:00:00 -0200</pubDate>
+        <link>http://www.behavedata.com/blog/machine-learning/2015/10/18/classificando-passos-jawbone/</link>
+        <guid isPermaLink="true">http://www.behavedata.com/blog/machine-learning/2015/10/18/classificando-passos-jawbone/</guid>
+        
+        
+        <category>machine-learning</category>
+        
+      </item>
     
       <item>
         <title>Algumas informações úteis sobre Machine Learning</title>
@@ -140,7 +193,7 @@ Exploring the shapes of stories using Python and sentiment APIs
 &lt;p&gt;Kurt Vonnegut apresentou em uma &lt;a href=&quot;https://www.youtube.com/watch?v=oP3c1h8v2ZQ&quot; target=&quot;_blank&quot;&gt;aula&lt;/a&gt; uma formula simples para se analisar histórias
 com base no conflito entre bem e mal. Neste post, engenheiros da Indico
 utilizam aprendizado de máquina e técnicas de análise de séries
-temporais para testar esta hipótese em diferentes filmes da Disney.&lt;/p&gt;
+temporais para testar esta hipótese em diferentes filmes da Disney. &lt;/p&gt;
 
 &lt;h3&gt;&lt;a href=&quot;http://www.alfredo.motta.name/cross-validation-done-wrong/&quot; target=&quot;_blank&quot;&gt;
 Cross Validation done wrong
@@ -390,7 +443,7 @@ classificar uma imagem, a rede é utilizada para realçar em uma imagem
 do Google utilizaram este processo em uma rede neural treinada para
 reconhecer diversos objetos. Os resultados são imagens muito
 interessantes, que podem ser vistas nesta 
-&lt;a href=&quot;https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB&quot; target=&quot;_blank&quot;&gt;galeria&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&quot;https://photos.google.com/share/AF1QipPX0SCl7OzWilt9LnuQliattX4OUCj_8EP65_cTVnBmS1jnYgsGQAieQUc1VQWdgQ?key=aVBxWjhwSzg2RjJWLWRuVFBBZEN1d205bUdEMnhB&quot; target=&quot;_blank&quot;&gt;galeria&lt;/a&gt;.  &lt;/p&gt;
 &lt;h3&gt;&lt;a href=&quot;http://www.startup.ml/blog/hyperparam&quot; target=&quot;_blank&quot;&gt;
 State of Hyperparameter Selection
 &lt;/a&gt;&lt;/h3&gt;
@@ -432,7 +485,7 @@ Benchmarking Random Forest Implementations
 &lt;p&gt;Benchmark com diversas implementações de Random Forest levando em conta
 a qualidade do modelo e o tempo de processamento. O objetivo é encontrar
 uma implementação que possa ser utilizada no processamento de datasets
-com dez milhões de instâncias.&lt;/p&gt;
+com dez milhões de instâncias. &lt;/p&gt;
 
 &lt;h3&gt;&lt;a href=&quot;http://yahoolabs.tumblr.com/post/118966433256/egads-a-scalable-configurable-and-novel-anomaly&quot; target=&quot;_blank&quot;&gt;
 EGADS: A Scalable, Configurable, and Novel Anomaly Detection System
@@ -527,7 +580,7 @@ Parallel Machine Learning with Hogwild!
 &lt;p&gt;Algoritmos paralelos podem gastar um tempo significativo obtendo e
 liberando locks. Em alguns casos, uma técnica chamada Hogwild! pode ser
 utilizada para substituir o lock sem grandes prejuízos no resultado
-final.&lt;/p&gt;
+final. &lt;/p&gt;
 
 &lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://research.facebook.com/researchers/1543934539189348&quot; target=&quot;_blank&quot;&gt;
 The bAbI project
@@ -596,7 +649,7 @@ Deep Learning e processamento de linguagem natural
 
 &lt;p&gt;Este post aborda aplicações de Deep Learning no processamento
 de linguagem natural. Mais específicamente, o autor fala sobre a
-representação dos atributos e a sua utilização em redes neurais.&lt;/p&gt;
+representação dos atributos e a sua utilização em redes neurais. &lt;/p&gt;
 
 </description>
         <pubDate>Mon, 04 May 2015 00:00:00 -0300</pubDate>
@@ -648,7 +701,7 @@ Apache Spark 1.3
 
 &lt;p&gt;Uma nova versão do Spark foi lançada. Uma das novidades desta versão é a
 API de &lt;a href=&quot;https://databricks.com/blog/2015/03/13/announcing-spark-1-3.html&quot; target=&quot;_blank&quot;&gt;DataFrame&lt;/a&gt; inspirada nos DataFrames de R. Este será um formato
-comum para comunicação e interoperabilidade.&lt;/p&gt;
+comum para comunicação e interoperabilidade. &lt;/p&gt;
 
 &lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;https://timdettmers.wordpress.com/2015/03/09/deep-learning-hardware-guide/&quot; taget=&quot;_blank&quot;&gt;
 Guia de Hardware para Deep Learning
@@ -677,73 +730,6 @@ Visualização, Matemática e Estatística.&lt;/p&gt;
         <pubDate>Tue, 17 Mar 2015 00:00:00 -0300</pubDate>
         <link>http://www.behavedata.com/blog/links/2015/03/17/links-selecionados/</link>
         <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/03/17/links-selecionados/</guid>
-        
-        
-        <category>links</category>
-        
-      </item>
-    
-      <item>
-        <title>Links Selecionados - 01/03/2015</title>
-        <description>&lt;h3&gt;&lt;a href=&quot;http://www.cio.co.uk/insight/data-management/jim-starkeys-nosql-low-down-it-wont-solve-big-data-3598479/&quot; target=&quot;_blank&quot;&gt;Entrevista de Jim Starkey sobre NoSQL&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Jim Starkey foi um dos responsáveis pela criação do InterBase que
-originou o &lt;a href=&quot;http://www.firebirdsql.org/&quot; target=&quot;_blank&quot;&gt;Firebird&lt;/a&gt;.
-Mais tarde fundou a Netfrastructure (adquirida
-pela MySQL) e a &lt;a href=&quot;http://www.nuodb.com/&quot; target=&quot;_blank&quot;&gt;NuoDB&lt;/a&gt;. Diversas inovações em bancos de dados são
-resultados do trabalho de Jim Starkey, entre elas, o tipo de dado BLOB,
-que pode ser visto como uma primeira tentativa de se lidar com dados não
-estruturados.&lt;/p&gt;
-
-&lt;p&gt;Em entrevista, Starkey expressa sua cautela quanto a bancos de dados
-NoSQL pois acredita que existem soluções melhores, em que não é
-necessário abrir mão de transações ou consistência.&lt;/p&gt;
-
-&lt;p&gt;Por fim, Starkey diz que em bancos NoSQL a visão dos dados se encontra
-na aplicação. Isso faz com que duas aplicações não tenham a mesma visão,
-e consequentemente, gerem inconsistências nos dados.&lt;/p&gt;
-
-&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://www.technologyreview.com/view/535446/googles-ai-masters-space-invaders-but-it-still-stinks-at-pac-man/&quot; taget=&quot;_blank&quot;&gt;DeepMind publica novos resultados&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;A DeepMind é uma empresa focada em Inteligência Artificial, 
-&lt;a href=&quot;http://techcrunch.com/2014/01/26/google-deepmind/&quot; target=&quot;_blank&quot;&gt;adquirida pelo Google em 2014&lt;/a&gt;. 
-Recentemente a empresa publicou na Nature os
-novos resultados de seu algoritmo capaz de 
-&lt;a href=&quot;http://www.bloomberg.com/news/articles/2015-02-25/google-s-computers-learn-to-play-video-games-by-themselves&quot; target=&quot;_blank&quot;&gt;
-aprender a jogar jogos de Atari&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Esse tipo de sistema será utilizado em mundos virtuais cada vez mais
-complexos, diminuindo assim a distância para o mundo real. A ideia é que
-se o algoritmo for capaz de aprender a dirigir um carro em um jogo de
-corrida, o mesmo será capaz de aprender a dirigir um carro autônomo com
-alguns ajustes.&lt;/p&gt;
-
-&lt;p&gt;O sistema utiliza &lt;em&gt;deep reinforcement learning&lt;/em&gt;. O código fonte e a
-publicação podem ser encontrados 
-&lt;a href=&quot;https://sites.google.com/a/deepmind.com/dqn/&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/2015/03/01/deepmind.gif&quot; alt=&quot;Breakout&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://ml.posthaven.com/machine-learning-done-wrong&quot; target=&quot;_blank&quot;&gt;Machine Learning Done Wrong&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Cheng Tao-Chu, diretor de analytics do CodeAcademy, publicou uma 
-lista de más práticas em Machine Learning. Por exemplo, é importante 
-evitar utilizar modelos de alta variância em conjuntos de dados com 
-um número de instâncias de treino muito menor que o número de features.&lt;/p&gt;
-
-&lt;h3 class=&quot;title-space&quot;&gt;&lt;a href=&quot;http://jd-mathbio.blogspot.ca/2015/02/finding-cheaters-using-multiple-choice.html&quot; target=&quot;_blank&quot;&gt;Identificando cola em prova utilizando dados&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Jonathan Dushoff estava desconfiado de que alguns alunos poderiam 
-ter colado em seu exame final. Para checar se isso havia ocorrido, 
-o professor resolveu fazer um gráfico que comparasse provas de cada 
-par de alunos. Utilizando tal informação, o professor identificou 
-pares de alunos cujos resultados fugiam do padrão.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/2015/03/01/cola.png&quot; alt=&quot;Outliers são um indicativo de fraude&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Mar 2015 00:00:00 -0300</pubDate>
-        <link>http://www.behavedata.com/blog/links/2015/03/01/links-selecionados/</link>
-        <guid isPermaLink="true">http://www.behavedata.com/blog/links/2015/03/01/links-selecionados/</guid>
         
         
         <category>links</category>
